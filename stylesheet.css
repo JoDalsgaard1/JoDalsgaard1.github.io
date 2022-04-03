@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+html, body {
+    height: 100%;
+    background: #f4f1de;
+    overflow-y: hidden;
+}
+
+.header {
+    text-align: left;
+    font-size: 40px;
+    font-family: Rubik;
+    font-weight: 600;
+    color: #3f322b;
+    position: fixed;
+    top: -20px;
+    left: 20px;
+}
+
+.buttonClass{
+    font-family: Rubik;
+    font-weight: 500;
+    color:#3f322b;
+}
+
+
+#popupDrought {
+    position: fixed;
+    top: 120px;
+    left: 500px;
+    display: none;
+}
+#popupVolcano {
+    position: fixed;
+    top: 120px;
+    left: 500px;
+    display: none;
+}
+
+#popupElNino {
+    position: fixed;
+    top: 120px;
+    left: 500px;
+    display: none;
+}
+
+#intro1 {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+    display: block;
+}
+
+#intro2 {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+    display: none;
+}
+
+#intro3 {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+    display: none;
+}
+
+#intro4 {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+    display: none;
+}
+
+.yearLabels {
+    font-family: 'Ubunto Mono', monospace;
+}

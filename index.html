@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>March 24</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<h1 class="header">Things old<br>trees know</h1>
+	<!-- <h2 class="subheader">Visualizing dendrochronological data from great bristlecone pines</h2> -->
+	<div id="canvas">
+		<svg>
+		</svg>
+	</div>
+	<button type="button" class="buttonClass" onclick="updateDrought()">Drought</button>
+	<button type="button" class="buttonClass" onclick="updateElNino()">El Nino</button>
+	<button type="button" class="buttonClass" onclick="updateVolcano()">Volcanos</button>
+	<button type="button" class="buttonClass" onclick="updateReset()">Precipitation</button>
+	<div id="popupDrought"><img src="popupdrought.png" alt="Drought popup" style="width:500px;"></div>
+	<div id="popupVolcano"><img src="popupvolcano.png" alt="Volcano popup" style="width:500px;"></div>
+	<div id="popupElNino"><img src="popupnino.png" alt="El Nino popup" style="width:500px;"></div>
+	<div id="intro1"><img src="intro1.png" alt="Intro popup 1" onclick="introchange1()" style="width:500px;"></div>
+	<div id="intro2"><img src="intro2.png" alt="Intro popup 2" onclick="introchange2()"style="width:500px;"></div>
+	<div id="intro3"><img src="intro3.png" alt="Intro popup 3" onclick="introchange3()"style="width:500px;"></div>
+	<div id="intro4"><img src="intro4.png" alt="Intro popup 4" onclick="introchange4()"style="width:500px;"></div>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src = "index.js"></script>
+</body>
+</html>
